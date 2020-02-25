@@ -1,0 +1,90 @@
+Oct 15, 2019 5:30:52 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 15, 2019 5:30:55 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 15, 2019 5:30:56 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 16, 2019 3:44:53 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 16, 2019 3:44:55 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 16, 2019 3:44:55 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 16, 2019 3:49:16 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 16, 2019 3:49:19 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 16, 2019 3:49:21 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 17, 2019 2:58:04 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 17, 2019 2:58:07 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 17, 2019 2:58:08 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 18, 2019 3:02:45 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 18, 2019 3:02:50 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 18, 2019 3:02:52 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 18, 2019 3:13:59 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 18, 2019 3:14:01 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 18, 2019 3:14:02 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 18, 2019 3:31:05 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 18, 2019 3:31:07 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 18, 2019 3:31:08 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 18, 2019 3:38:14 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 18, 2019 3:38:16 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 18, 2019 3:38:17 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 18, 2019 3:56:33 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 18, 2019 3:56:35 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 18, 2019 3:56:37 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 18, 2019 4:09:53 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 18, 2019 4:09:55 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 18, 2019 4:09:57 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 19, 2019 3:07:14 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 19, 2019 3:07:22 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 19, 2019 3:07:23 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 19, 2019 3:17:54 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 19, 2019 3:17:59 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 19, 2019 3:18:01 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 19, 2019 3:26:38 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 19, 2019 3:26:44 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 19, 2019 3:26:48 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 19, 2019 3:39:05 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 19, 2019 3:39:08 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 19, 2019 3:39:09 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100
+Oct 19, 2019 3:56:25 AM org.apache.karaf.main.Main launch
+INFO: Installing and starting initial bundles
+Oct 19, 2019 3:56:27 AM org.apache.karaf.main.Main launch
+INFO: All initial bundles installed and set to start
+Oct 19, 2019 3:56:29 AM org.apache.karaf.main.Main$KarafLockCallback lockAcquired
+INFO: Lock acquired. Setting startlevel to 100

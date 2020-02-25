@@ -1,0 +1,17 @@
+# Version del docker-compose a utilizar
+version: "3.7"
+services:
+  # docker run --name mariadb -v ./mariadb:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mariadb*passwd -d mariadb:latest
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb
+    deploy:
+      replicas: 1
+    environment:
+      - MYSQL_ROOT_PASSWORD=mariadb*passwd
+    ports: 
+      - 3306:3306
+    volumes:
+      - ./mariadb:/var/lib/mysql/data
+
+

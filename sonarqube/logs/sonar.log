@@ -1,0 +1,231 @@
+2019.10.19 03:26:32 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:26:33 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:26:33 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:26:33 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:26:37 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:26:37 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:28:26 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:28:26 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process13932047205618296620properties
+2019.10.19 03:29:06 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:29:07 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:29:07 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:29:07 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:29:13 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:29:14 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:29:14 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:29:14 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:29:16 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:29:16 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:30:21 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:30:22 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process17139061893605308676properties
+2019.10.19 03:30:33 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:30:34 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:30:34 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:30:34 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:30:38 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:30:38 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:30:38 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:30:38 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:30:39 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:30:39 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:31:13 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:31:13 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process15754444942468410850properties
+2019.10.19 03:31:20 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:31:22 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:31:22 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:31:22 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:31:27 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:31:27 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:31:27 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:31:27 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:31:28 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:31:28 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:32:17 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:32:17 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process16923503619021335430properties
+2019.10.19 03:32:30 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:32:31 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:32:31 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:32:31 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:32:35 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:32:35 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:32:36 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:32:36 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:32:36 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:32:36 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:33:07 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:33:07 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process11670528940988722247properties
+2019.10.19 03:33:14 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:33:14 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:33:14 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:33:14 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:33:18 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:33:19 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:33:19 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:33:19 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:33:19 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:33:19 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:33:51 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:33:51 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process17140469731211681693properties
+2019.10.19 03:34:03 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:34:05 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:34:05 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:34:05 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:34:15 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:34:15 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:34:16 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:34:16 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:34:17 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:34:17 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:35:06 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:35:06 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process16000569933392177968properties
+2019.10.19 03:35:13 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:35:13 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:35:13 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:35:13 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:35:18 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:35:18 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:35:18 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:35:18 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:35:19 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:35:19 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:35:56 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:35:56 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process271651469762372052properties
+2019.10.19 03:36:03 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:36:04 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:36:04 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:36:04 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:36:08 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:36:08 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:36:08 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:36:08 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:36:09 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:36:09 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:36:48 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:36:48 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process5980683781827989535properties
+2019.10.19 03:36:55 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:36:58 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:36:58 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:36:58 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:37:03 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:37:03 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:37:03 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:37:03 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:37:04 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:37:04 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:37:14 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 143
+2019.10.19 03:37:14 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:37:14 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:38:56 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:38:57 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:38:57 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:38:58 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:39:01 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:39:01 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:40:34 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 03:40:34 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process14725644175552044216properties
+2019.10.19 03:56:10 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44044, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 03:56:11 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44044, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 03:56:11 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44044, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 03:57:49 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2019.10.19 03:57:49 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.ce.app.CeServer /opt/sonarqube/temp/sq-process3268836303306821986properties
+2019.10.19 03:58:15 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 137
+2019.10.19 03:58:15 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2019.10.19 03:59:15 INFO  app[][o.s.a.p.ManagedProcessHandler] ce failed to stop in a quick fashion. Killing it.
+2019.10.19 03:59:15 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ce]: 137
+2019.10.19 03:59:15 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is stopped
+2019.10.19 03:59:17 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2019.10.19 03:59:17 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+2019.10.19 03:59:23 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /opt/sonarqube/temp
+2019.10.19 03:59:23 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2019.10.19 03:59:23 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/opt/sonarqube/elasticsearch]: /opt/sonarqube/elasticsearch/bin/elasticsearch
+2019.10.19 03:59:23 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+2019.10.19 03:59:25 INFO  app[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:59:25 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 04:00:09 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2019.10.19 04:00:09 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/opt/sonarqube]: /usr/local/openjdk-11/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/opt/sonarqube/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/opt/sonarqube/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /opt/sonarqube/temp/sq-process3181346281056433496properties
+2019.10.19 04:09:23 WARN  app[][o.e.t.TransportService] Received response for a request that has timed out, sent [25592ms] ago, timed out [4832ms] ago, action [cluster:monitor/nodes/liveness], node [{#transport#-1}{hVR2jhMjQm-d_I9BN4Oiyw}{127.0.0.1}{127.0.0.1:9001}], id [47]
+2019.10.19 04:09:38 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44378, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:09:38 INFO  app[][o.e.c.t.TransportClientNodesService] failed to get node info for {#transport#-1}{hVR2jhMjQm-d_I9BN4Oiyw}{127.0.0.1}{127.0.0.1:9001}, disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][127.0.0.1:9001][cluster:monitor/nodes/liveness] request_id [47] timed out after [20760ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1016)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:681)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2019.10.19 04:09:38 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44374, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:10:47 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44374, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:10:47 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44378, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:10:50 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44378, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:10:50 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44374, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:10:53 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44378, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:10:55 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44378, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:18:33 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44400, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:19:18 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44406, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:19:54 WARN  app[][o.e.t.TransportService] Received response for a request that has timed out, sent [6073ms] ago, timed out [0ms] ago, action [cluster:monitor/nodes/liveness], node [{#transport#-1}{hVR2jhMjQm-d_I9BN4Oiyw}{127.0.0.1}{127.0.0.1:9001}], id [55]
+2019.10.19 04:20:05 INFO  app[][o.e.c.t.TransportClientNodesService] failed to get node info for {#transport#-1}{hVR2jhMjQm-d_I9BN4Oiyw}{127.0.0.1}{127.0.0.1:9001}, disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][127.0.0.1:9001][cluster:monitor/nodes/liveness] request_id [55] timed out after [6073ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1016)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:681)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2019.10.19 04:21:06 INFO  app[][o.e.c.t.TransportClientNodesService] failed to get node info for {#transport#-1}{hVR2jhMjQm-d_I9BN4Oiyw}{127.0.0.1}{127.0.0.1:9001}, disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][127.0.0.1:9001][cluster:monitor/nodes/liveness] request_id [57] timed out after [5072ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1016)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:681)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2019.10.19 04:22:41 WARN  app[][o.e.t.TransportService] Received response for a request that has timed out, sent [20513ms] ago, timed out [10140ms] ago, action [cluster:monitor/nodes/liveness], node [{#transport#-1}{hVR2jhMjQm-d_I9BN4Oiyw}{127.0.0.1}{127.0.0.1:9001}], id [59]
+2019.10.19 04:22:43 INFO  app[][o.e.c.t.TransportClientNodesService] failed to get node info for {#transport#-1}{hVR2jhMjQm-d_I9BN4Oiyw}{127.0.0.1}{127.0.0.1:9001}, disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][127.0.0.1:9001][cluster:monitor/nodes/liveness] request_id [59] timed out after [10373ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1016)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:681)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2019.10.19 04:23:02 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44418, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:24:59 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44418, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:25:05 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44418, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+2019.10.19 04:25:52 INFO  app[][o.e.c.t.TransportClientNodesService] failed to get node info for {#transport#-1}{hVR2jhMjQm-d_I9BN4Oiyw}{127.0.0.1}{127.0.0.1:9001}, disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][127.0.0.1:9001][cluster:monitor/nodes/liveness] request_id [62] timed out after [5230ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1016)
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:681)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2019.10.19 04:25:58 WARN  app[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:44426, remoteAddress=/127.0.0.1:9001}]
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)

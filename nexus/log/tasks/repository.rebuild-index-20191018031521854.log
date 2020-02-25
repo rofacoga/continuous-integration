@@ -1,0 +1,11 @@
+2019-10-18 03:15:21,864+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask - Task information:
+2019-10-18 03:15:21,889+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask -  ID: 019891ad-cd12-44bc-a4af-84a467b69856
+2019-10-18 03:15:21,890+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask -  Type: repository.rebuild-index
+2019-10-18 03:15:21,890+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask -  Name: Repair - Rebuild repository search
+2019-10-18 03:15:21,891+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask -  Description: Rebuilding search index of *
+2019-10-18 03:15:21,926+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository maven-snapshots
+2019-10-18 03:15:22,382+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository maven-central
+2019-10-18 03:15:22,628+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository nuget.org-proxy
+2019-10-18 03:15:23,003+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository maven-releases
+2019-10-18 03:15:23,289+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.SearchFacetImpl - Rebuilding index of repository nuget-hosted
+2019-10-18 03:15:23,637+0000 INFO  [quartz-3-thread-1]  *SYSTEM org.sonatype.nexus.repository.search.RebuildIndexTask - Task complete

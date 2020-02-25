@@ -1,0 +1,509 @@
+2019.10.19 03:27:04 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:27:04 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:27:07 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:27:07 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:27:07 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:27:13 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:27:30 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:27:38 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:27:41 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:27:41 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:27:42 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:27:43 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:27:46 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{16TmBx-uTiKPtnjKxVQl8A}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:27:46 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{16TmBx-uTiKPtnjKxVQl8A}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{16TmBx-uTiKPtnjKxVQl8A}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:27:46 INFO  es[][o.e.n.Node] started
+2019.10.19 03:27:50 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:28:25 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:29:06 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:29:07 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:29:07 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:29:07 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:29:27 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:29:27 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:29:28 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:29:28 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:29:28 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:29:31 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:29:43 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:29:48 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:29:52 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:29:52 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:29:53 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:29:53 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:29:57 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{QmgtvWuoRayPRD9oe4A7wQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:29:58 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{QmgtvWuoRayPRD9oe4A7wQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{QmgtvWuoRayPRD9oe4A7wQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:29:58 INFO  es[][o.e.n.Node] started
+2019.10.19 03:30:02 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:30:21 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:30:33 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:30:33 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:30:33 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:30:33 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:30:43 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:30:43 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:30:44 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:30:44 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:30:44 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:30:45 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:30:49 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:30:53 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:30:54 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:30:54 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:30:54 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:30:54 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:30:58 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{g82r9RZxS3irwbnTwzwfFw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:30:58 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{g82r9RZxS3irwbnTwzwfFw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{g82r9RZxS3irwbnTwzwfFw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:30:58 INFO  es[][o.e.n.Node] started
+2019.10.19 03:30:59 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:31:13 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:31:20 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:31:22 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:31:22 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:31:22 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:31:33 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:31:33 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:31:34 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:31:34 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:31:34 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:31:34 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:31:37 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:31:39 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:31:40 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:31:40 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:31:40 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:31:41 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:31:44 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{VmLfDVeuQuuKmrTWL10rZg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:31:44 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{VmLfDVeuQuuKmrTWL10rZg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{VmLfDVeuQuuKmrTWL10rZg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:31:44 INFO  es[][o.e.n.Node] started
+2019.10.19 03:31:45 WARN  es[][o.e.g.G.InternalPrimaryShardAllocator] [users][0]: failed to list shard for shard_started on node [Hhmrk7pZR_KtAV6zoV9EXw]
+org.elasticsearch.action.FailedNodeException: Failed node [Hhmrk7pZR_KtAV6zoV9EXw]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:236) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$200(TransportNodesAction.java:151) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$1.handleException(TransportNodesAction.java:210) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1114) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1226) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1200) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportService$7.onFailure(TransportService.java:703) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:736) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39) [elasticsearch-6.8.0.jar:6.8.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: org.elasticsearch.transport.RemoteTransportException: [sonarqube][127.0.0.1:9001][internal:gateway/local/started_shards[n]]
+Caused by: org.elasticsearch.ElasticsearchException: failed to load started shards
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:169) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:138) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:259) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:255) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:692) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:751) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.8.0.jar:6.8.0]
+	... 3 more
+Caused by: org.elasticsearch.ElasticsearchException: java.io.IOException: failed to read [id:172, file:/opt/sonarqube/data/es6/nodes/0/indices/OhDx585xQfCB-mRFC9b11w/_state/state-172.st]
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:165) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:304) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:138) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:259) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:255) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:692) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:751) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.8.0.jar:6.8.0]
+	... 3 more
+Caused by: java.io.IOException: failed to read [id:172, file:/opt/sonarqube/data/es6/nodes/0/indices/OhDx585xQfCB-mRFC9b11w/_state/state-172.st]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:298) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:138) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:259) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:255) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:692) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:751) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.8.0.jar:6.8.0]
+	... 3 more
+Caused by: java.nio.file.NoSuchFileException: /opt/sonarqube/data/es6/nodes/0/indices/OhDx585xQfCB-mRFC9b11w/_state/state-172.st
+	at sun.nio.fs.UnixException.translateToIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Unknown Source) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Unknown Source) ~[?:?]
+	at org.apache.lucene.store.SimpleFSDirectory.openInput(SimpleFSDirectory.java:77) ~[lucene-core-7.7.0.jar:7.7.0 8c831daf4eb41153c25ddb152501ab5bae3ea3d5 - jimczi - 2019-02-04 23:16:28]
+	at org.elasticsearch.gateway.MetaDataStateFormat.read(MetaDataStateFormat.java:182) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:294) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:138) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:259) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:255) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:66) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:692) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:751) ~[elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-6.8.0.jar:6.8.0]
+	... 3 more
+2019.10.19 03:31:45 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:32:17 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:32:30 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:32:31 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:32:31 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:32:31 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:32:40 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:32:40 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:32:42 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:32:42 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:32:42 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:32:43 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:32:46 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:32:48 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:32:49 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:32:49 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:32:49 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:32:49 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:32:52 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{OMyWi94tQXOYDr9LR6f2Vg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:32:52 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{OMyWi94tQXOYDr9LR6f2Vg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{OMyWi94tQXOYDr9LR6f2Vg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:32:52 INFO  es[][o.e.n.Node] started
+2019.10.19 03:32:53 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:33:07 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:33:14 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:33:14 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:33:14 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:33:14 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:33:24 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:33:24 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:33:24 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:33:24 INFO  es[][o.e.n.Node] version[6.8.0], pid[27], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:33:24 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:33:25 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:33:27 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:33:29 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:33:30 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:33:30 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:33:31 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:33:31 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:33:34 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{KfTgviV5REyvbSUpQOefbQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:33:34 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{KfTgviV5REyvbSUpQOefbQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{KfTgviV5REyvbSUpQOefbQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:33:34 INFO  es[][o.e.n.Node] started
+2019.10.19 03:33:35 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:33:51 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:34:03 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:34:04 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:34:04 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:34:04 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:34:29 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:34:29 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:34:29 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:34:29 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:34:29 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:34:31 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:34:37 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:34:39 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:34:40 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:34:40 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:34:40 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:34:41 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:34:44 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{CfMKxlvMRuWwmCEQACi-FA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:34:44 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{CfMKxlvMRuWwmCEQACi-FA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{CfMKxlvMRuWwmCEQACi-FA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:34:44 INFO  es[][o.e.n.Node] started
+2019.10.19 03:34:46 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:35:06 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][3]] ...]).
+2019.10.19 03:35:13 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:35:13 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:35:13 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:35:13 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:35:23 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:35:23 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:35:24 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:35:24 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:35:24 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:35:25 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:35:27 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:35:29 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:35:30 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:35:30 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:35:30 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:35:30 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:35:34 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{YRlDwChHQo69-GZeK_di-A}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:35:34 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{YRlDwChHQo69-GZeK_di-A}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{YRlDwChHQo69-GZeK_di-A}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:35:34 INFO  es[][o.e.n.Node] started
+2019.10.19 03:35:35 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:35:56 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:36:03 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:36:04 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:36:04 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:36:04 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:36:17 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:36:17 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:36:18 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:36:18 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:36:18 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:36:19 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:36:22 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:36:24 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:36:25 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:36:25 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:36:25 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:36:26 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:36:29 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{VFrTeephSPKTaJJrdMOmBg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:36:29 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{VFrTeephSPKTaJJrdMOmBg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{VFrTeephSPKTaJJrdMOmBg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:36:29 INFO  es[][o.e.n.Node] started
+2019.10.19 03:36:30 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:36:48 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:36:55 INFO  es[][o.e.n.Node] stopping ...
+2019.10.19 03:36:58 INFO  es[][o.e.n.Node] stopped
+2019.10.19 03:36:58 INFO  es[][o.e.n.Node] closing ...
+2019.10.19 03:36:58 INFO  es[][o.e.n.Node] closed
+2019.10.19 03:37:08 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:37:08 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:37:09 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:37:09 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:37:09 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:37:10 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:39:15 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.6gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:39:15 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:39:16 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:39:16 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:39:16 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:39:20 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:39:33 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:39:45 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:39:50 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:39:50 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:39:51 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:39:52 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:39:55 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{6gG4xr8EQTq1WFF_b2Beqg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:39:55 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{6gG4xr8EQTq1WFF_b2Beqg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{6gG4xr8EQTq1WFF_b2Beqg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:39:55 INFO  es[][o.e.n.Node] started
+2019.10.19 03:39:59 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 03:40:34 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 03:41:37 INFO  es[][o.e.c.m.MetaDataDeleteIndexService] [users/OhDx585xQfCB-mRFC9b11w] deleting index
+2019.10.19 03:41:38 WARN  es[][o.e.m.j.JvmGcMonitorService] [gc][108] overhead, spent [699ms] collecting in the last [1s]
+2019.10.19 03:42:06 INFO  es[][o.e.c.m.MetaDataDeleteIndexService] [issues/eOKV_Ch6QhyaYCdb2YGZvA] deleting index
+2019.10.19 03:42:13 INFO  es[][o.e.c.m.MetaDataDeleteIndexService] [rules/rt1EhNMUQOODpkCNjwltwQ] deleting index
+2019.10.19 03:42:31 INFO  es[][o.e.c.m.MetaDataDeleteIndexService] [components/M5PpAZCPS9igOBE84MbtEw] deleting index
+2019.10.19 03:42:36 INFO  es[][o.e.c.m.MetaDataDeleteIndexService] [projectmeasures/l7-Z6IbqRnGPa9OXsOVBFw] deleting index
+2019.10.19 03:42:41 INFO  es[][o.e.c.m.MetaDataDeleteIndexService] [views/zbya22B-TPW1-wcd5aiUfA] deleting index
+2019.10.19 03:42:48 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [components] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2019.10.19 03:42:51 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[components][4]] ...]).
+2019.10.19 03:42:51 INFO  es[][o.e.c.m.MetaDataMappingService] [components/W0t-6GnoQIihtZTofKfEDg] create_mapping [auth]
+2019.10.19 03:42:52 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [projectmeasures] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2019.10.19 03:42:55 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[projectmeasures][4]] ...]).
+2019.10.19 03:42:55 INFO  es[][o.e.c.m.MetaDataMappingService] [projectmeasures/0Yf8Y7_2TrW1MTUXo8UC1g] create_mapping [auth]
+2019.10.19 03:42:56 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [rules] creating index, cause [api], templates [], shards [2]/[0], mappings []
+2019.10.19 03:42:59 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[rules][0]] ...]).
+2019.10.19 03:42:59 INFO  es[][o.e.c.m.MetaDataMappingService] [rules/3xBGm7MbTt6-KVYs4fq-Sw] create_mapping [rule]
+2019.10.19 03:43:01 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [issues] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2019.10.19 03:43:10 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[issues][4]] ...]).
+2019.10.19 03:43:10 INFO  es[][o.e.c.m.MetaDataMappingService] [issues/tmsYDGJXTwyCyyI2Rh2kOg] create_mapping [auth]
+2019.10.19 03:43:11 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [users] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2019.10.19 03:43:11 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[users][0]] ...]).
+2019.10.19 03:43:12 INFO  es[][o.e.c.m.MetaDataMappingService] [users/akigqbLETQaNxKH_pAMmMw] create_mapping [user]
+2019.10.19 03:43:13 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [views] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2019.10.19 03:43:18 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[views][4]] ...]).
+2019.10.19 03:43:18 INFO  es[][o.e.c.m.MetaDataMappingService] [views/AwYudTp7S7KA7cvp55OX5Q] create_mapping [view]
+2019.10.19 03:45:09 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 03:50:09 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 03:51:02 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 03:52:02 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update node information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 03:52:45 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 03:56:33 INFO  es[][o.e.m.j.JvmGcMonitorService] [gc][343] overhead, spent [295ms] collecting in the last [1s]
+2019.10.19 03:56:39 INFO  es[][o.e.m.j.JvmGcMonitorService] [gc][349] overhead, spent [276ms] collecting in the last [1s]
+2019.10.19 03:57:35 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2019.10.19 03:57:35 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2019.10.19 03:57:36 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2019.10.19 03:57:36 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2019.10.19 03:57:38 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2019.10.19 03:57:38 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2019.10.19 03:57:39 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2019.10.19 03:57:39 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2019.10.19 03:59:40 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/opt/sonarqube/data (osxfs)]], net usable_space [392.2gb], net total_space [465.5gb], types [fuse.osxfs]
+2019.10.19 03:59:40 INFO  es[][o.e.e.NodeEnvironment] heap size [495.3mb], compressed ordinary object pointers [true]
+2019.10.19 03:59:41 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [Hhmrk7pZR_KtAV6zoV9EXw]
+2019.10.19 03:59:41 INFO  es[][o.e.n.Node] version[6.8.0], pid[26], build[default/tar/65b6179/2019-05-15T20:06:13.172855Z], OS[Linux/4.9.184-linuxkit/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/11.0.4/11.0.4+11]
+2019.10.19 03:59:41 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/opt/sonarqube/temp, -XX:ErrorFile=../logs/es_hs_err_pid%p.log, -Des.enforce.bootstrap.checks=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/sonarqube/elasticsearch, -Des.path.conf=/opt/sonarqube/temp/conf/es, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] loaded module [analysis-common]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] loaded module [lang-painless]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] loaded module [mapper-extras]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] loaded module [repository-url]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2019.10.19 03:59:42 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2019.10.19 03:59:46 WARN  es[][o.e.d.c.s.Settings] [http.enabled] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+2019.10.19 03:59:50 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen] and host providers [settings]
+2019.10.19 03:59:52 INFO  es[][o.e.n.Node] initialized
+2019.10.19 03:59:52 INFO  es[][o.e.n.Node] starting ...
+2019.10.19 03:59:52 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2019.10.19 03:59:53 INFO  es[][o.e.b.BootstrapChecks] explicitly enforcing bootstrap checks
+2019.10.19 03:59:56 INFO  es[][o.e.c.s.MasterService] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{65LCBOkPSnis6CDLX0V-cw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}
+2019.10.19 03:59:56 INFO  es[][o.e.c.s.ClusterApplierService] new_master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{65LCBOkPSnis6CDLX0V-cw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: apply cluster state (from master [master {sonarqube}{Hhmrk7pZR_KtAV6zoV9EXw}{65LCBOkPSnis6CDLX0V-cw}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+2019.10.19 03:59:56 INFO  es[][o.e.n.Node] started
+2019.10.19 03:59:57 INFO  es[][o.e.g.GatewayService] recovered [7] indices into cluster_state
+2019.10.19 04:00:08 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2019.10.19 04:03:06 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:04:52 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update node information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:05:10 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:11:50 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:14:40 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update node information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:15:31 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:16:28 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update node information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:16:59 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:18:21 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:19:40 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:20:29 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update node information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:23:00 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update node information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:23:30 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:24:57 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update shard information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:26:36 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update node information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:32:54 WARN  es[][o.e.c.InternalClusterInfoService] Failed to update node information for ClusterInfoUpdateJob within 15s timeout
+2019.10.19 04:33:20 WARN  es[][o.e.t.OutboundHandler] send message failed [channel: Netty4TcpChannel{localAddress=0.0.0.0/0.0.0.0:9001, remoteAddress=/127.0.0.1:44416}]
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.write(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.write(Unknown Source) ~[?:?]
+	at sun.nio.ch.IOUtil.write(Unknown Source) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.write(Unknown Source) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:405) ~[netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:938) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:360) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:905) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1396) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.logging.LoggingHandler.flush(LoggingHandler.java:265) [netty-handler-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.ChannelDuplexHandler.flush(ChannelDuplexHandler.java:117) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:802) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1066) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:309) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at org.elasticsearch.transport.netty4.Netty4TcpChannel.sendMessage(Netty4TcpChannel.java:139) [transport-netty4-client-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.OutboundHandler.internalSendMessage(OutboundHandler.java:80) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.OutboundHandler.sendBytes(OutboundHandler.java:59) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportKeepAlive.sendPing(TransportKeepAlive.java:119) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TransportKeepAlive.receiveKeepAlive(TransportKeepAlive.java:106) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.TcpTransport.inboundMessage(TcpTransport.java:765) [elasticsearch-6.8.0.jar:6.8.0]
+	at org.elasticsearch.transport.netty4.Netty4MessageChannelHandler.channelRead(Netty4MessageChannelHandler.java:53) [transport-netty4-client-6.8.0.jar:6.8.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297) [netty-codec-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.handler.logging.LoggingHandler.channelRead(LoggingHandler.java:241) [netty-handler-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:556) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:510) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470) [netty-transport-4.1.32.Final.jar:4.1.32.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909) [netty-common-4.1.32.Final.jar:4.1.32.Final]
+	at java.lang.Thread.run(Unknown Source) [?:?]

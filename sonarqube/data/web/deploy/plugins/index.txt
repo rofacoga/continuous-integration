@@ -1,0 +1,13 @@
+cobertura,false,sonar-cobertura-plugin-2.0.jar|23f61e38e0fecb010d7d39053aab4db6
+python,true,sonar-python-plugin-1.16.0.4432.jar|af6e8182e308005988f5e2672ea2c9d1
+l10nes,false,sonar-l10n-es-plugin-1.14.jar|dfee843182e9b3a1fcbb551cccf1bd88
+authgoogleoauth,false,sonar-auth-googleoauth-plugin-1.6.1.jar|df1ee0723f42d4ea0e51d92ece275587
+authgithub,false,sonar-auth-github-plugin-1.5.0.870.jar|59d98c94277e5faa8377ba521e440eba
+authbitbucket,false,sonar-auth-bitbucket-plugin-1.1.0.381.jar|7037d75859dfeb6f0cd364089f7df833
+jacoco,false,sonar-jacoco-plugin-1.0.2.475.jar|513697d7dc792f02b10b1f4bcb9b48ab
+javascript,true,sonar-javascript-plugin-5.2.1.7778.jar|866bb1adbf016ea515620f1aaa15ec53
+authgitlab,false,sonar-auth-gitlab-plugin-1.3.2.jar|a3214aa14061bdbf8fa080c56c6761d7
+java,true,sonar-java-plugin-5.14.0.18788.jar|b85e79af43c5fd9d871f67c00ce3c18d
+web,true,sonar-html-plugin-3.2.0.2082.jar|298a75a167830bfe6c1a75bf3a08fe19
+php,true,sonar-php-plugin-3.2.0.4868.jar|84bac7bdcd3d78a2cd7037bfd70fcc3c
+typescript,true,sonar-typescript-plugin-1.9.0.3766.jar|4a3cc03335859f0839de090b0ed35956

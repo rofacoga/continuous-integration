@@ -1,0 +1,91 @@
+# Version del docker-compose a utilizar
+version: "3.7"
+services:
+  # docker run --name mariadb -v ./mariadb:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mariadb*passwd -d mariadb:latest
+  # mariadb:
+  #   image: mariadb:latest
+  #   container_name: mariadb
+  #   deploy:
+  #     replicas: 1
+  #   environment:
+  #     - MYSQL_ROOT_PASSWORD=mariadb*passwd
+  #   volumes:
+  #     - ./mariadb:/var/lib/mysql/data
+
+
+  # create database sonarqube_db;
+  # create user sonarqube_user with encrypted password 'sonarqube*passwd';
+  # GRANT all privileges ON DATABASE sonarqube_db TO sonarqube_user;
+  postgres:
+    image: postgres:alpine
+    container_name: postgres
+    restart: always
+    deploy:
+      replicas: 1
+    environment:
+      - POSTGRES_DB=sonarqube_db
+      - POSTGRES_USER=sonarqube_user
+      - POSTGRES_PASSWORD=sonarqube*passwd
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    restart: always
+    deploy:
+      replicas: 1
+    ports:
+      - 5434:8080
+
+  # docker run -p 8080:8080 -p 50000:50000 -v ./jenkins:/var/jenkins_home -d jenkins/jenkins:lts-alpine
+  jenkins:
+    image: jenkins/jenkins:lts-alpine
+    container_name: jenkins
+    restart: always
+    deploy:
+      replicas: 1
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - ./jenkins:/var/jenkins_home
+
+  # docker run -d --name sonarqube \
+  #  -p 9000:9000 \
+  #  -v ./sonarqube/conf:/opt/sonarqube/conf \
+  #  -v ./sonarqube/data:/opt/sonarqube/data \
+  #  -v ./sonarqube/logs:/opt/sonarqube/logs \
+  #  -v ./sonarqube/exts:/opt/sonarqube/extensions \
+  #  sonarqube
+  sonarqube:
+    image: sonarqube:latest
+    container_name: sonarqube
+    restart: always
+    depends_on:
+      - postgres
+    deploy:
+      replicas: 1
+    ports:
+      - "9000:9000"
+    environment:
+      - SONARQUBE_JDBC_USERNAME=sonarqube_user
+      - SONARQUBE_JDBC_PASSWORD=sonarqube*passwd
+      - SONARQUBE_JDBC_URL=jdbc:postgresql://postgres/sonarqube_db
+    volumes:
+      - ./sonarqube/conf:/opt/sonarqube/conf
+      - ./sonarqube/data:/opt/sonarqube/data
+      - ./sonarqube/logs:/opt/sonarqube/logs
+      - ./sonarqube/exts:/opt/sonarqube/extensions
+
+  nexus:
+    image: sonatype/nexus3:latest
+    container_name: nexus
+    restart: always
+    deploy:
+      replicas: 1
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./nexus:/nexus-data
+

@@ -1,0 +1,96 @@
+2019.10.19 03:57:55 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2019.10.19 03:57:55 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2019.10.19 03:57:58 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2019.10.19 03:57:58 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019.10.19 03:57:58 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019.10.19 03:57:58 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019.10.19 03:58:15 INFO  ce[][o.s.p.ProcessEntryPoint] Hard stopping process
+2019.10.19 03:58:16 WARN  ce[][o.s.p.ProcessEntryPoint$HardStopperThread] Can not stop in 1000ms
+2019.10.19 03:58:17 INFO  ce[][o.e.c.t.TransportClientNodesService] failed to get node info for {#transport#-1}{3BW5XTWaQW2XiiPvdB3YhA}{127.0.0.1}{127.0.0.1:9001}, disconnecting...
+java.lang.IllegalStateException: Future got interrupted
+	at org.elasticsearch.common.util.concurrent.FutureUtils.get(FutureUtils.java:60)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:34)
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:209)
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:80)
+	at org.elasticsearch.transport.TransportService.openConnection(TransportService.java:367)
+	at org.elasticsearch.client.transport.TransportClientNodesService$SimpleNodeSampler.doSample(TransportClientNodesService.java:411)
+	at org.elasticsearch.client.transport.TransportClientNodesService$NodeSampler.sample(TransportClientNodesService.java:362)
+	at org.elasticsearch.client.transport.TransportClientNodesService.addTransportAddresses(TransportClientNodesService.java:201)
+	at org.elasticsearch.client.transport.TransportClient.addTransportAddress(TransportClient.java:342)
+	at org.sonar.server.es.EsClientProvider.addHostToClient(EsClientProvider.java:91)
+	at org.sonar.server.es.EsClientProvider.provide(EsClientProvider.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.picocontainer.injectors.MethodInjector.invokeMethod(MethodInjector.java:129)
+	at org.picocontainer.injectors.MethodInjector.access$000(MethodInjector.java:39)
+	at org.picocontainer.injectors.MethodInjector$2.run(MethodInjector.java:113)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.MethodInjector.decorateComponentInstance(MethodInjector.java:120)
+	at org.picocontainer.injectors.CompositeInjector.decorateComponentInstance(CompositeInjector.java:58)
+	at org.picocontainer.injectors.Reinjector.reinject(Reinjector.java:142)
+	at org.picocontainer.injectors.ProviderAdapter.getComponentInstance(ProviderAdapter.java:96)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.sonar.core.platform.ComponentContainer$ExtendedDefaultPicoContainer.getComponent(ComponentContainer.java:63)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:632)
+	at org.picocontainer.parameters.BasicComponentParameter$1.resolveInstance(BasicComponentParameter.java:118)
+	at org.picocontainer.parameters.ComponentParameter$1.resolveInstance(ComponentParameter.java:136)
+	at org.picocontainer.injectors.SingleMemberInjector.getParameter(SingleMemberInjector.java:78)
+	at org.picocontainer.injectors.ConstructorInjector$CtorAndAdapters.getParameterArguments(ConstructorInjector.java:309)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:335)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.getComponentInstance(AbstractInjectionFactory.java:56)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.instantiateComponentAsIsStartable(DefaultPicoContainer.java:1034)
+	at org.picocontainer.DefaultPicoContainer.addAdapterIfStartable(DefaultPicoContainer.java:1026)
+	at org.picocontainer.DefaultPicoContainer.startAdapters(DefaultPicoContainer.java:1003)
+	at org.picocontainer.DefaultPicoContainer.start(DefaultPicoContainer.java:767)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:135)
+	at org.sonar.ce.container.ComputeEngineContainerImpl.startLevel1(ComputeEngineContainerImpl.java:210)
+	at org.sonar.ce.container.ComputeEngineContainerImpl.start(ComputeEngineContainerImpl.java:182)
+	at org.sonar.ce.ComputeEngineImpl.startup(ComputeEngineImpl.java:45)
+	at org.sonar.ce.app.CeServer$CeMainThread.attemptStartup(CeServer.java:160)
+	at org.sonar.ce.app.CeServer$CeMainThread.run(CeServer.java:138)
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(Unknown Source)
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:251)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:94)
+	at org.elasticsearch.common.util.concurrent.FutureUtils.get(FutureUtils.java:57)
+	... 46 common frames omitted
+2019.10.19 03:58:17 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2019.10.19 03:58:17 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:postgresql://postgres/sonarqube_db
+2019.10.19 03:58:23 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2019.10.19 03:58:24 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2019.10.19 03:58:25 ERROR ce[][o.s.ce.app.CeServer] Compute Engine startup failed
+java.lang.IllegalStateException: Fail to unzip plugin [cobertura] /opt/sonarqube/extensions/plugins/sonar-cobertura-plugin-2.0.jar to /opt/sonarqube/temp/ce-exploded-plugins/cobertura
+	at org.sonar.ce.container.CePluginJarExploder.explode(CePluginJarExploder.java:56)
+	at org.sonar.core.platform.PluginLoader.defineClassloaders(PluginLoader.java:84)
+	at org.sonar.core.platform.PluginLoader.load(PluginLoader.java:64)
+	at org.sonar.ce.container.CePluginRepository.start(CePluginRepository.java:71)
+	at org.sonar.core.platform.StartableCloseableSafeLifecyleStrategy.start(StartableCloseableSafeLifecyleStrategy.java:40)
+	at org.picocontainer.injectors.AbstractInjectionFactory$LifecycleAdapter.start(AbstractInjectionFactory.java:84)
+	at org.picocontainer.behaviors.AbstractBehavior.start(AbstractBehavior.java:169)
+	at org.picocontainer.behaviors.Stored$RealComponentLifecycle.start(Stored.java:132)
+	at org.picocontainer.behaviors.Stored.start(Stored.java:110)
+	at org.picocontainer.DefaultPicoContainer.potentiallyStartAdapter(DefaultPicoContainer.java:1016)
+	at org.picocontainer.DefaultPicoContainer.startAdapters(DefaultPicoContainer.java:1009)
+	at org.picocontainer.DefaultPicoContainer.start(DefaultPicoContainer.java:767)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:135)
+	at org.sonar.ce.container.ComputeEngineContainerImpl.startLevel2(ComputeEngineContainerImpl.java:217)
+	at org.sonar.ce.container.ComputeEngineContainerImpl.start(ComputeEngineContainerImpl.java:187)
+	at org.sonar.ce.ComputeEngineImpl.startup(ComputeEngineImpl.java:45)
+	at org.sonar.ce.app.CeServer$CeMainThread.attemptStartup(CeServer.java:160)
+	at org.sonar.ce.app.CeServer$CeMainThread.run(CeServer.java:138)
+Caused by: java.nio.channels.ClosedByInterruptException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.endBlocking(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.size(Unknown Source)
+	at org.apache.commons.io.FileUtils.doCopyFile(FileUtils.java:1125)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1076)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+	at org.sonar.ce.container.CePluginJarExploder.explode(CePluginJarExploder.java:52)
+	... 17 common frames omitted
